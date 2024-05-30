@@ -1,24 +1,10 @@
-// JSON Server module
-const jsonServer = require("json-server");
+const jsonServer = require("json-server"); // importing json-server library
 const server = jsonServer.create();
-
-
-// Make sure to use the default middleware
+const router = jsonServer.router("data.json");
 const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 3001; 
 
-// server.use(middlewares);
-// // Add this before server.use(router)
-// server.use(
-//  // Add custom route here if needed
-//  jsonServer.rewriter({
-//   "/api/*": "/$1",
-//  })
-// );
-// server.use(router);
-// // Listen to port
-// server.listen(3000, () => {
-//  console.log("JSON Server is running");
-// });
+server.use(middlewares);
+server.use(router);
 
-// Export the Server API
-module.exports = server;
+server.listen(port);
