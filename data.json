@@ -1,0 +1,274 @@
+{
+    "schools": [
+      {
+        "id": "1",
+        "name": "Greenwood Primary School",
+        "type": "Primary",
+        "product": "Zeraki Analytics",
+        "county": "Nairobi",
+        "registrationDate": "2020-01-15",
+        "phone": "123-456-7890",
+        "email": "contact@greenwoodprimary.ac.ke",
+        "balance": 5000
+      },
+      {
+        "id": "2",
+        "name": "Hillside Secondary School",
+        "type": "Secondary",
+        "product": "Zeraki Finance",
+        "county": "Kiambu",
+        "registrationDate": "2019-05-20",
+        "phone": "987-654-3210",
+        "email": "contact@hillsidesecondary.ac.ke",
+        "balance": 7500
+      },
+      {
+        "id": "3",
+        "name": "Riverside IGCSE School",
+        "type": "IGCSE",
+        "product": "Zeraki Timetable",
+        "county": "Mombasa",
+        "registrationDate": "2021-09-10",
+        "phone": "456-789-0123",
+        "email": "contact@riversideigcse.ac.ke",
+        "balance": 12000
+      },
+      {
+        "id": "4",
+        "name": "Sunrise Academy",
+        "type": "Primary",
+        "product": "Zeraki Finance",
+        "county": "Nakuru",
+        "registrationDate": "2022-03-25",
+        "phone": "321-654-9870",
+        "email": "contact@sunriseacademy.ac.ke",
+        "balance": 3000
+      },
+      {
+        "id": "a830",
+        "name": "Wileyce Preparatory School",
+        "type": "Primary",
+        "product": "Zeraki Timetable",
+        "county": "Nairobi",
+        "phone": "01234567890",
+        "email": "wileyce@email.com",
+        "balance": 10000,
+        "registrationDate": "2024-05-30"
+      },
+      {
+        "id": "2f91",
+        "name": "SteveLee Secondary School",
+        "type": "Secondary",
+        "product": "Zeraki Analytics",
+        "county": "Nairobi",
+        "phone": "01234567890",
+        "email": "info@stevelee.com",
+        "balance": 20000,
+        "registrationDate": "2024-05-30"
+      },
+      {
+        "id": "c6ab",
+        "name": "BrookHouse School",
+        "type": "IGSE",
+        "product": "Zeraki Finance",
+        "county": "Kiambu",
+        "phone": "01234567890",
+        "email": "sec@brookhouse.edu",
+        "balance": 0,
+        "registrationDate": "2024-05-30"
+      }
+    ],
+    "invoices": [
+      {
+        "id": "1",
+        "schoolId": 1,
+        "invoiceNumber": "INV001",
+        "item": "Annual Subscription",
+        "creationDate": "2023-01-10",
+        "dueDate": "2023-02-10",
+        "amount": 2000,
+        "paidAmount": 1500,
+        "balance": 500,
+        "status": "Pending",
+        "daysUntilDue": 30
+      },
+      {
+        "id": "2",
+        "schoolId": 2,
+        "invoiceNumber": "INV002",
+        "item": "Monthly Subscription",
+        "creationDate": "2023-01-05",
+        "dueDate": "2023-02-05",
+        "amount": 3000,
+        "paidAmount": 3000,
+        "balance": 0,
+        "status": "Completed",
+        "daysUntilDue": 35
+      },
+      {
+        "id": "3",
+        "schoolId": 3,
+        "invoiceNumber": "INV003",
+        "item": "Term Subscription",
+        "creationDate": "2023-02-15",
+        "dueDate": "2023-03-15",
+        "amount": 5000,
+        "paidAmount": 2500,
+        "balance": 2500,
+        "status": "Pending",
+        "daysUntilDue": 28
+      },
+      {
+        "id": "4",
+        "schoolId": 4,
+        "invoiceNumber": "INV004",
+        "item": "Annual Subscription",
+        "creationDate": "2023-03-01",
+        "dueDate": "2023-04-01",
+        "amount": 3000,
+        "paidAmount": 0,
+        "balance": 3000,
+        "status": "Pending",
+        "daysUntilDue": 31
+      },
+      {
+        "id": "5",
+        "schoolId": 1,
+        "invoiceNumber": "INV005",
+        "item": "Monthly Subscription",
+        "creationDate": "2023-04-05",
+        "dueDate": "2023-05-05",
+        "amount": 1000,
+        "paidAmount": 1000,
+        "balance": 0,
+        "status": "Completed",
+        "daysUntilDue": 30
+      },
+      {
+        "id": "6",
+        "schoolId": 2,
+        "invoiceNumber": "INV006",
+        "item": "Quarterly Subscription",
+        "creationDate": "2023-05-10",
+        "dueDate": "2023-06-10",
+        "amount": 4000,
+        "paidAmount": 2000,
+        "balance": 2000,
+        "status": "Pending",
+        "daysUntilDue": 31
+      },
+      {
+        "id": "7",
+        "schoolId": 3,
+        "invoiceNumber": "INV007",
+        "item": "Annual Subscription",
+        "creationDate": "2023-06-20",
+        "dueDate": "2023-07-20",
+        "amount": 6000,
+        "paidAmount": 6000,
+        "balance": 0,
+        "status": "Completed",
+        "daysUntilDue": 30
+      },
+      {
+        "id": "8",
+        "schoolId": 4,
+        "invoiceNumber": "INV008",
+        "item": "Term Subscription",
+        "creationDate": "2023-07-15",
+        "dueDate": "2023-08-15",
+        "amount": 3500,
+        "paidAmount": 1500,
+        "balance": 2000,
+        "status": "Pending",
+        "daysUntilDue": 31
+      },
+      {
+        "id": "f400",
+        "schoolId": "2",
+        "invoiceNumber": "INV124",
+        "item": "Quarterly Subscription",
+        "amount": 2500,
+        "paidAmount": 0,
+        "balance": 2500,
+        "dueDate": "2024-06-13",
+        "creationDate": "2024-05-30",
+        "status": "Pending"
+      }
+    ],
+    "collections": [
+      {
+        "id": "1",
+        "invoiceId": 1,
+        "collectionNumber": "COL001",
+        "dateOfCollection": "2023-01-20",
+        "status": "Valid",
+        "amount": 1000
+      },
+      {
+        "id": "2",
+        "invoiceId": 1,
+        "collectionNumber": "COL002",
+        "dateOfCollection": "2023-02-01",
+        "status": "Bounced",
+        "amount": 500
+      },
+      {
+        "id": "3",
+        "invoiceId": 2,
+        "collectionNumber": "COL003",
+        "dateOfCollection": "2023-01-30",
+        "status": "Valid",
+        "amount": 3000
+      },
+      {
+        "id": "4",
+        "invoiceId": 3,
+        "collectionNumber": "COL004",
+        "dateOfCollection": "2023-03-01",
+        "status": "Valid",
+        "amount": 2500
+      },
+      {
+        "id": "5",
+        "invoiceId": 4,
+        "collectionNumber": "COL005",
+        "dateOfCollection": "2023-03-20",
+        "status": "Valid",
+        "amount": 1500
+      },
+      {
+        "id": "6",
+        "invoiceId": 5,
+        "collectionNumber": "COL006",
+        "dateOfCollection": "2023-04-10",
+        "status": "Valid",
+        "amount": 1000
+      },
+      {
+        "id": "7",
+        "invoiceId": 6,
+        "collectionNumber": "COL007",
+        "dateOfCollection": "2023-05-20",
+        "status": "Valid",
+        "amount": 2000
+      },
+      {
+        "id": "8",
+        "invoiceId": 7,
+        "collectionNumber": "COL008",
+        "dateOfCollection": "2023-07-01",
+        "status": "Valid",
+        "amount": 6000
+      },
+      {
+        "id": "9",
+        "invoiceId": 8,
+        "collectionNumber": "COL009",
+        "dateOfCollection": "2023-07-30",
+        "status": "Valid",
+        "amount": 1500
+      }
+    ]
+  }
+  
